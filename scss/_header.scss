@@ -1,0 +1,41 @@
+/*header */
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding: 0 200px;
+
+        .navList {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        }
+
+            .navList a{
+            text-decoration: none;
+            color: inherit;
+            font-size: 20px;
+            padding: 0 20px;
+            transition: font-size 0.3s;
+
+            &:hover{
+                font-size: 25px;
+                text-decoration: underline;
+            }
+            }
+    }
+
+
+
+
+
+h1 {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+nav {
+    margin-left: auto;
+}

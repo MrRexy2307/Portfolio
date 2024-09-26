@@ -1,0 +1,153 @@
+/*header */
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  padding: 0 200px;
+}
+.navBar .navList {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.navBar .navList a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 20px;
+  padding: 0 20px;
+  transition: font-size 0.3s;
+}
+.navBar .navList a:hover {
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+h1 {
+  margin-right: auto;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+nav {
+  margin-left: auto;
+}
+
+.sobreMi {
+  display: flex;
+  align-items: center;
+  gap: 300px;
+  padding: 0 200px;
+}
+.sobreMi .descripcion h2 {
+  font-size: 40px;
+}
+.sobreMi .descripcion p {
+  font-size: 25px;
+  text-align: justify;
+}
+
+.profile {
+  border-radius: 50%;
+  width: 500px;
+  height: 450px;
+}
+
+.proyectos {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.proyectos h2 {
+  font-size: 40px;
+}
+
+.card {
+  display: inline-block;
+  width: 500px;
+  border: solid gray 2px;
+  border-radius: 10px;
+  padding: 10px 30px;
+  text-align: center;
+}
+
+.card h3 {
+  font-size: 30px;
+}
+
+.card p {
+  font-size: 25px;
+  text-align: justify;
+}
+
+.card img {
+  width: 500px;
+  margin-bottom: 10px;
+}
+
+.card a {
+  font-size: 20px;
+  border: solid rgb(49, 49, 49) 1px;
+  border-radius: 5%;
+  background-color: rgb(49, 49, 49);
+  color: white;
+  text-decoration: none;
+  padding: 0 30px;
+  transition: background-color 0.5s;
+}
+.card a:hover {
+  background-color: white;
+  color: black;
+}
+
+.infoContacto {
+  padding: 0 200px;
+}
+.infoContacto h2 {
+  font-size: 40px;
+}
+.infoContacto li {
+  font-size: 25px;
+}
+
+.containerRedes h3 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: center;
+}
+
+.socialMedia img {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin-inline: 40px;
+  margin-bottom: 20px;
+  transition: width 0.3s, height 0.3s;
+}
+.socialMedia img:hover {
+  width: 120px;
+  height: 120px;
+}
+
+.pie {
+  border-top: 1px solid gray;
+}
+
+.pie h2 {
+  text-align: center;
+  font-size: 15px;
+}
+.pie h2 a {
+  text-decoration: none;
+  color: black;
+  transition: font-size 0.3s;
+}
+.pie h2 a:hover {
+  font-size: 17px;
+}
+
+/*# sourceMappingURL=estilo.css.map */
